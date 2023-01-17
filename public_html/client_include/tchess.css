@@ -1,0 +1,11 @@
+
+.top_menu {
+	text-align: center;
+	font-size: 14pt;
+}
+a {
+	color: #1302EA;
+}
+a:hover {
+	color: #4615C8;
+}

@@ -1,0 +1,1 @@
+inside subdomain_redirects.php if the user goes to http://tchess.com/page.php  it will redirect to 

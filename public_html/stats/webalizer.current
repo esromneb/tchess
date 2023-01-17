@@ -1,0 +1,189 @@
+# Webalizer V2.01-10 Incremental Data - 08/06/2004 23:29:54
+2004 8 6 23 29 54
+36 21 8 5 7 8 87760 17 8 0
+3 3 13 2 6
+0 0 0 0 0 0
+11 4 5909 2 6 2
+7 5 35572 3 3 3
+2 1 1187 1 1 1
+0 0 0 0 0 0
+16 11 45092 3 7 2
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+2 1 1187 1
+0 0 0 0
+3 2 17721 1
+2 2 16664 1
+2 1 1187 1
+0 0 0 0
+0 0 0 0
+6 0 5389 2
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+5 4 520 4
+0 0 0 0
+0 0 0 0
+13 8 28298 5
+0 0 0 0
+3 3 16794 2
+0
+0
+0
+21
+0
+0
+0
+0
+0
+5
+0
+0
+1
+0
+1
+0
+0
+0
+0
+0
+0
+7
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/
+0 12 0 1560 6 1
+/display_game.php
+0 6 0 7128 0 0
+/images/templogo.jpg
+1 5 0 66136 0 0
+/robots.txt
+0 2 0 2516 0 0
+/favicon.ico
+0 2 0 2360 0 0
+# End Of Table - urls
+# -sites- (monthly)
+crawler11.googlebot.com
+0 2 1 1187 1 1091514035
+/
+xoba.com
+0 6 5 5389 1 1091452768
+/
+203.195.105.33
+0 8 7 17314 2 1091834994
+/
+cpe.atm2-0-1101098.0x5359be16.hinxx1.customer.tele.dk
+0 3 2 17721 1 1091520370
+/
+203-154-224-79.inter.net.th
+0 2 2 16664 1 1091525291
+/
+crawl29-public.alexa.com
+0 2 1 1187 1 1091614226
+/
+adsl-69-107-80-180.dsl.pltn13.pacbell.net
+0 1 1 1188 0 0
+-
+dsl3-63-249-65-217.cruzio.com
+0 12 7 27110 1 1091828616
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+203.195.105.33
+0 3 3 16794 1 1091834994
+/
+adsl-69-107-80-180.dsl.pltn13.pacbell.net
+0 1 1 1188 0 0
+-
+dsl3-63-249-65-217.cruzio.com
+0 12 7 27110 1 1091828616
+/
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 26
+http://iconsurf.com/
+0 2
+http://www.google.com/search
+0 1
+http://myphpadmin.tchess.com/
+0 1
+http://www.tchess.com/
+0 3
+http://www.tchess.com
+0 1
+http://iconsurf.com/robot.html
+0 2
+# End Of Table - referrers
+# -agents- 
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Q312461)
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0b; Windows 98) OmniWeb/v496
+0 6
+Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/125.
+0 6
+Googlebot/2.1 (+http://www.google.com/bot.html)
+0 2
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+0 10
+ia_archiver
+0 2
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7) Gecko/2004061
+0 3
+IconSurf/2.0 favicon finder (see http://iconsurf.com/robot.ht
+0 6
+# End Of Table - agents
+# -search strings- 
+tchess
+1
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

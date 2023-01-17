@@ -1,0 +1,173 @@
+[Tue Jul 06 23:56:49 2004] [error] [client 213.158.9.136] Directory index forbidden by rule: /home/tchess/public_html/
+[Tue Jul 06 23:57:15 2004] [error] [client 63.249.65.148] Directory index forbidden by rule: /home/tchess/public_html/
+[Tue Jul 06 14:57:16 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/favicon.ico
+[Tue Jul 06 15:06:19 2004] [error] [client 213.158.9.136] Directory index forbidden by rule: /home/tchess/public_html/
+[Wed Jul 07 00:06:46 2004] [error] [client 63.249.65.148] Directory index forbidden by rule: /home/tchess/public_html/
+[Tue Jul 06 15:36:08 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/favicon.ico
+[Tue Jul 06 16:30:42 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/webmin
+[Tue Jul 06 17:46:59 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/forum/login
+[Tue Jul 06 17:56:45 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/db
+[Tue Jul 06 17:56:48 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/db
+[Tue Jul 06 17:57:02 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/db
+[Tue Jul 06 17:57:04 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/db
+[Tue Jul 06 17:57:56 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/db
+[Tue Jul 06 17:59:33 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/forum/template
+[Tue Jul 06 17:59:36 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/forum/template
+[Tue Jul 06 18:05:44 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/forum/faq
+[Tue Jul 06 19:13:17 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:17 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:17 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:17 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:18 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:18 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:18 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:18 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:18 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:18 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:18 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:18 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:19 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:19 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:19 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:19 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:19 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:19 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:19 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:19 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:19 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:19 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:19 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:20 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:20 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:20 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:20 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:20 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:20 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:20 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:20 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:20 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:21 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:21 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:21 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:21 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:21 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:21 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:21 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:21 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:21 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:21 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:21 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:22 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:22 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:22 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:22 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:22 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:22 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:22 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:22 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:22 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 19:13:23 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 21:17:44 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 21:17:44 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 21:17:44 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 21:17:44 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 21:17:45 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 21:17:45 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 21:17:45 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 21:17:45 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 21:17:45 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Tue Jul 06 21:17:45 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/dev/images, referer: http://www.tchess.com/dev/table.php
+[Wed Jul 07 01:07:58 2004] [error] [client 65.214.36.60] File does not exist: /home/tchess/public_html/robots.txt
+[Thu Jul 08 19:32:16 2004] [error] [client 64.68.82.44] File does not exist: /home/tchess/public_html/robots.txt
+[Fri Jul 09 12:05:10 2004] [error] [client 193.190.14.245] File does not exist: /home/tchess/public_html/favicon.ico
+[Fri Jul 09 21:53:45 2004] [error] [client 213.158.8.107] File does not exist: /home/tchess/public_html/ideas/images/uprightcorner.gif, referer: http://tchess.com/ideas/one.html
+[Fri Jul 09 21:53:52 2004] [error] [client 213.158.8.107] File does not exist: /home/tchess/public_html/ideas/images/upleftcorner.gif, referer: http://tchess.com/ideas/one.html
+[Mon Jul 12 17:59:53 2004] [error] [client 203.195.105.33] File does not exist: /home/tchess/public_html/suport
+[Tue Jul 13 00:34:12 2004] [error] [client 213.224.83.70] File does not exist: /home/tchess/public_html/favicon.ico
+[Mon Jul 19 19:23:05 2004] [error] [client 216.233.212.242] File does not exist: /home/tchess/public_html/long2ip
+[Tue Jul 20 11:48:15 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/long2ip.php
+[Wed Jul 21 00:48:49 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/netstat.php
+[Thu Jul 22 07:39:35 2004] [error] [client 64.68.82.136] File does not exist: /home/tchess/public_html/robots.txt
+[Fri Jul 23 16:32:00 2004] [error] [client 63.249.65.201] File does not exist: /home/tchess/public_html/phpmyadmin
+[Sat Jul 24 11:19:03 2004] [error] [client 63.249.65.148] File does not exist: /home/tchess/public_html/favicon.ico
+[Mon Jul 26 00:32:30 2004] [error] [client 66.196.90.114] File does not exist: /home/tchess/public_html/robots.txt
+[Mon Jul 26 08:13:35 2004] [error] [client 128.143.9.246] File does not exist: /home/tchess/public_html/versions
+[Wed Jul 28 01:16:22 2004] [error] [client 66.196.91.123] File does not exist: /home/tchess/public_html/robots.txt
+[Sat Jul 31 09:38:46 2004] [error] [client 82.33.58.25] File does not exist: /home/tchess/public_html/favicon.ico
+[Mon Aug 02 13:19:25 2004] [error] [client 64.240.129.21] File does not exist: /home/tchess/public_html/robots.txt, referer: http://iconsurf.com/robot.html?tchess.com/64.71.173.180
+[Mon Aug 02 13:19:25 2004] [error] [client 64.240.129.21] File does not exist: /home/tchess/public_html/favicon.ico, referer: http://iconsurf.com/
+[Mon Aug 02 13:19:27 2004] [error] [client 64.240.129.21] File does not exist: /home/tchess/public_html/robots.txt, referer: http://iconsurf.com/robot.html?www.tchess.com/64.71.173.180
+[Mon Aug 02 13:19:27 2004] [error] [client 64.240.129.21] File does not exist: /home/tchess/public_html/favicon.ico, referer: http://iconsurf.com/
+[Tue Aug 03 06:20:35 2004] [error] [client 64.68.82.33] File does not exist: /home/tchess/public_html/robots.txt
+[Tue Aug 03 08:06:10 2004] [error] [client 83.89.190.22] File does not exist: /home/tchess/public_html/favicon.ico
+[Wed Aug 04 10:10:26 2004] [error] [client 209.237.238.179] File does not exist: /home/tchess/public_html/robots.txt
+[Fri Aug 06 21:29:01 2004] [error] [client 63.249.65.217] File does not exist: /home/tchess/public_html/favicon.ico
+[Fri Aug 06 21:42:59 2004] [error] [client 63.249.65.217] File does not exist: /home/tchess/public_html/myphpadmin
+[Fri Aug 06 21:43:04 2004] [error] [client 63.249.65.217] File does not exist: /home/tchess/public_html/myphpadmin
+[Fri Aug 06 21:43:17 2004] [error] [client 63.249.65.217] File does not exist: /home/tchess/public_html/myphpadmin
+[Sat Aug 07 12:59:18 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/chess_board.css, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 12:59:18 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/show_possible_moves.js, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 12:59:18 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/upleftcorner.gif, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 12:59:18 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/bg3.jpg, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 12:59:18 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/uprightcorner.gif, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 12:59:18 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/logo.jpg, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 12:59:18 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/green_dot.gif, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 12:59:19 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/black_king.gif, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 12:59:19 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/black_pawn.gif, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 12:59:19 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/downleftcorner.gif, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 12:59:19 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/downrightcorner.gif, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 12:59:56 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/chess_board.css, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 12:59:56 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/show_possible_moves.js, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 12:59:57 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/bg3.jpg, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 12:59:57 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/upleftcorner.gif, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 12:59:57 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/uprightcorner.gif, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 13:00:00 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/logo.jpg, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 13:00:00 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/green_dot.gif, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 13:00:00 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/black_king.gif, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 13:00:03 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/black_pawn.gif, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 13:00:03 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/downleftcorner.gif, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 13:00:03 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/downrightcorner.gif, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 13:05:47 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/chess_board.css, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 13:05:48 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/show_possible_moves.js, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 13:05:48 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/logo.jpg, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 13:06:02 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/chess_board.css, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 13:06:11 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/show_possible_moves.js, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 13:34:23 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/chess_board.css, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 13:34:23 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/show_possible_moves.js, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 13:35:47 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/chess_board.css, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 13:35:47 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/show_possible_moves.js, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 13:35:57 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/chess_board.css, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 13:35:57 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/show_possible_moves.js, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 13:36:13 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/chess_board.css, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 13:36:13 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/show_possible_moves.js, referer: http://www.tchess.com/template_two.php
+[Sat Aug 07 21:06:53 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/pieces/..gif, referer: http://www.tchess.com/display_game.php
+[Sat Aug 07 21:06:53 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/pieces/wknight.gif, referer: http://www.tchess.com/display_game.php
+[Sat Aug 07 21:07:00 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/pieces/..gif, referer: http://www.tchess.com/display_game.php
+[Sat Aug 07 21:07:00 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/pieces/wknight.gif, referer: http://www.tchess.com/display_game.php
+[Sat Aug 07 21:08:31 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/pieces/..gif, referer: http://www.tchess.com/display_game.php
+[Sat Aug 07 21:09:27 2004] [error] [client 67.180.150.96] File does not exist: /home/tchess/public_html/images/pieces/..gif, referer: http://www.tchess.com/display_game.php
+[Sat Aug 07 21:09:30 2004] [error] [client 216.175.93.239] File does not exist: /home/tchess/public_html/images/pieces/..gif, referer: http://www.tchess.com/display_game.php
+[Sat Aug 07 21:10:59 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/pieces/..gif, referer: http://www.tchess.com/display_game.php
+[Sat Aug 07 21:11:21 2004] [error] [client 216.175.93.239] File does not exist: /home/tchess/public_html/images/pieces/..gif, referer: http://www.tchess.com/display_game.php
+[Sat Aug 07 21:28:13 2004] [error] [client 216.175.93.239] File does not exist: /home/tchess/public_html/images/pieces/..gif, referer: http://www.tchess.com/display_game.php
+[Sat Aug 07 21:56:18 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/tmp
+[Sat Aug 07 21:56:21 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/tmp.html
+[Sat Aug 07 22:42:05 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/tmp
+[Sun Aug 08 10:17:53 2004] [error] [client 63.249.68.191] File does not exist: /home/tchess/public_html/favicon.ico
+[Sun Aug 08 21:22:25 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/pieces/blank.gif, referer: http://www.tchess.com/display_game.php
+[Sun Aug 08 21:23:35 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/pieces/blank.gif, referer: http://www.tchess.com/display_game.php
+[Sun Aug 08 21:23:42 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/images/pieces/blank.gif, referer: http://www.tchess.com/display_game.php
+[Thu Aug 12 01:01:00 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/dis
+[Thu Aug 12 23:12:41 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/favicon.ico
+[Mon Aug 16 00:03:11 2004] [error] [client 69.107.80.180] File does not exist: /home/tchess/public_html/favicon.ico
+[Mon Aug 16 20:52:48 2004] [error] [client 206.183.1.74] File does not exist: /home/tchess/public_html/robots.txt
+[Thu Aug 19 14:55:49 2004] [error] [client 66.196.90.222] File does not exist: /home/tchess/public_html/robots.txt
+[Sat Aug 28 10:28:19 2004] [error] [client 137.45.77.171] File does not exist: /home/tchess/public_html/favicon.ico
+[Tue Sep 07 13:54:42 2004] [error] [client 68.63.134.158] File does not exist: /home/tchess/public_html/favicon.ico
+[Tue Sep 07 13:54:42 2004] [error] [client 68.63.134.158] File does not exist: /home/tchess/public_html/favicon.ico
+[Wed Sep 08 22:25:00 2004] [error] [client 66.196.90.131] File does not exist: /home/tchess/public_html/robots.txt
+[Sun Sep 26 22:58:27 2004] [error] [client 209.237.238.180] File does not exist: /home/tchess/public_html/robots.txt
+[Fri Oct 08 22:23:58 2004] [error] [client 66.196.90.133] File does not exist: /home/tchess/public_html/robots.txt
+[Mon Oct 11 11:00:30 2004] [error] [client 213.252.152.13] File does not exist: /home/tchess/public_html/robots.txt
+[Mon Oct 11 16:54:53 2004] [error] [client 65.214.36.49] File does not exist: /home/tchess/public_html/robots.txt
+[Tue Oct 19 11:23:46 2004] [error] [client 128.120.182.92] File does not exist: /home/tchess/public_html/rough_move

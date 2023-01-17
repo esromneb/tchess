@@ -1,0 +1,12 @@
+td.b {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+td.w {
+background-color: #FFFFFF;
+	color: #000000;
+}
+table.chess_board {
+
+	border: 1px solid #000000;
+}

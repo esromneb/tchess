@@ -1,0 +1,17 @@
+chess_game_class:
+	$id;     // private integer, game ID
+	$query;  // private database link
+	$state;  // board tiles array (64) [0-16 = black, 100-116 = white, 255 = NULL]
+	$moves;  // variable length list of moves [even bytes are piece ID, odd are position]
+
+	game();                        // init and connect to database, will set new $id. returns $id.
+	game($id);                     // init and connect to database, load up game $id. returns 1 on fail.
+	move();                        // executes next move if it is time. returns 1 if move was made.
+	legal($move);                  // returns 1 if move is illegal.
+	vote($move);                   // appends vote to database. replaces any previous vote. returns 1 on fail.
+	join($game_id,  $user, $team); // join a game. returns 1 on fail.
+	leave($game_id, $user);        // leave game. returns 1 on fail.
+	snapshot();                    // returns html table display of the game board.
+
+chess_vote_class:
+	

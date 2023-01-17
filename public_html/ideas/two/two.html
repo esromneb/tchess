@@ -1,0 +1,135 @@
+<html>
+<head>
+<title>working js...maybe</title>
+<link href="chess_board.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="show_possible_moves.js">
+</script>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+function report(s) {
+//this area is dynamic, the functions file is static so browser caching will speed things up
+	if(s == "a3") {
+		return ("a3,a5,b3");
+	}
+	if(s == "b3") {
+		return ("c3,d3");
+	}
+	//report all possible layers to hide
+	if(s == "all") {
+		return ("a3,a4,a5,b3,c3,d3");
+	}
+	return(NULL);
+}
+//-->
+</script>
+</head>
+<body background="images/bg3.jpg"> 
+<table border="0" align="center" width="800" cellspacing="0" cellpadding="0"> 
+  <tr valign="top"> 
+    <td height="13"><img src="images/upleftcorner.gif" width="13" height="13"></td> 
+    <td width="774" bgcolor="#FFFFFF"></td> 
+    <td height="13"><img src="images/uprightcorner.gif" width="13" height="13"></td> 
+  </tr> 
+  <tr> 
+    <td bgcolor="#FFFFFF"></td> 
+    <td bgcolor="#FFFFFF"><div align="center"> <img src="images/logo.jpg" width="373" height="108"></div>
+      <table border="1"> 
+        <tr height="75"> 
+          <td class="white" width="75">a,1</td> 
+          <td class="black" width="75">a,2</td> 
+          <td class="white" width="75"><span id="a3" style="visibility:hidden"><img src="images/green_dot.gif"  onClick="m('a2')"></span></td> 
+          <td class="black" width="75" style="position:relative"><span style="position:absolute; top:0; left:0; z-index:1"><img src="images/black_king.gif" width="75" height="75" onMouseOver="s('a3')" onClick="a('a3')" onMouseOut="o('a3')"></span><span id="a4" style="z-index:2; position:absolute; top:0; left:0; visibility:hidden;"><img src="images/green_dot.gif"></span></td> 
+          <td class="white" width="75"><span id="a5" style="visibility:hidden"><img src="images/green_dot.gif" onClick="m('a4')"></span></td> 
+          <td class="black" width="75">a,6</td> 
+          <td class="white" width="75">a,7</td> 
+          <td class="black" width="75">a,8</td> 
+        </tr> 
+        <tr height="75"> 
+          <td class="black" width="75">b,2</td> 
+          <td class="white" width="75">b,3</td> 
+          <td class="black" width="75">a,4</td> 
+          <td class="white" width="75" style="position:relative"><span style="position:absolute; top:0; left:0; z-index:1"><img src="images/black_pawn.gif" width="75" height="75" onMouseOver="s('b3')" onClick="a('b3')" onMouseOut="o('b3')"></span><span id="b3" style="z-index:2; position:absolute; top:0; left:0; visibility:hidden;"><img src="images/green_dot.gif" onClick="m('b3')"></span></td> 
+          <td class="black" width="75">a,6</td> 
+          <td class="white" width="75">a,7</td> 
+          <td class="black" width="75">a,8</td> 
+          <td class="white" width="75">a,1</td> 
+        </tr> 
+        <tr height="75"> 
+          <td class="white" width="75">c,1</td> 
+          <td class="black" width="75">c,2</td> 
+          <td class="white" width="75">a,3</td> 
+          <td class="black" width="75"><span id="c3" style="visibility:hidden"><img src="images/green_dot.gif" onClick="m('c3')"></span></td> 
+          <td class="white" width="75">a,5</td> 
+          <td class="black" width="75">a,6</td> 
+          <td class="white" width="75">a,7</td> 
+          <td class="black" width="75">a,8</td> 
+        </tr> 
+        <tr height="75"> 
+          <td class="black" width="75">a,2</td> 
+          <td class="white" width="75">a,3</td> 
+          <td class="black" width="75">a,4</td> 
+          <td class="white" width="75"><span id="d3" style="visibility:hidden"><img src="images/green_dot.gif" onClick="m('d3')"></span></td> 
+          <td class="black" width="75">a,6</td> 
+          <td class="white" width="75">a,7</td> 
+          <td class="black" width="75">a,8</td> 
+          <td class="white" width="75">a,1</td> 
+        </tr> 
+        <tr height="75"> 
+          <td class="white" width="75">a,1</td> 
+          <td class="black" width="75">a,2</td> 
+          <td class="white" width="75">a,3</td> 
+          <td class="black" width="75">a,4</td> 
+          <td class="white" width="75">a,5</td> 
+          <td class="black" width="75">a,6</td> 
+          <td class="white" width="75">a,7</td> 
+          <td class="black" width="75">a,8</td> 
+        </tr> 
+        <tr height="75"> 
+          <td class="black" width="75">a,2</td> 
+          <td class="white" width="75">a,3</td> 
+          <td class="black" width="75">a,4</td> 
+          <td class="white" width="75">a,5</td> 
+          <td class="black" width="75">a,6</td> 
+          <td class="white" width="75">a,7</td> 
+          <td class="black" width="75">a,8</td> 
+          <td class="white" width="75">a,1</td> 
+        </tr> 
+        <tr height="75"> 
+          <td class="white" width="75">a,1</td> 
+          <td class="black" width="75">a,2</td> 
+          <td class="white" width="75">a,3</td> 
+          <td class="black" width="75">a,4</td> 
+          <td class="white" width="75">a,5</td> 
+          <td class="black" width="75">a,6</td> 
+          <td class="white" width="75">a,7</td> 
+          <td class="black" width="75">a,8</td> 
+        </tr> 
+        <tr height="75"> 
+          <td class="black" width="75">a,2</td> 
+          <td class="white" width="75">a,3</td> 
+          <td class="black" width="75">a,4</td> 
+          <td class="white" width="75">a,5</td> 
+          <td class="black" width="75">a,6</td> 
+          <td class="white" width="75">a,7</td> 
+          <td class="black" width="75">a,8</td> 
+          <td class="white" width="75">a,1</td> 
+        </tr> 
+      </table> 
+      <p><br> 
+      </p></td> 
+    <td bgcolor="#FFFFFF"></td> 
+  </tr> 
+  <tr valign="top"> 
+    <td height="13"><img src="images/downleftcorner.gif" width="13" height="13"></td> 
+    <td width="774" bgcolor="#FFFFFF"></td> 
+    <td height="13"><img src="images/downrightcorner.gif" width="13" height="13"></td> 
+  </tr> 
+</table> 
+</body>
+</html>
+<!--
+<div align="center">
+<img src="images/logo.jpg" width="373" height="108">
+</div>
+-->
