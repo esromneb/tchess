@@ -1,0 +1,8 @@
+<?
+ini_set("include_path", ".:../:./include:../include");
+include_once("include.inc.php");
+$auth = new user_auth(0);
+$print = $auth->SessionInc()?"they're bad":"they're good";
+echo"page content...<br>";
+print("<br>".$print);
+?>

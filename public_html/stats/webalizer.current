@@ -1,28 +1,26 @@
-# Webalizer V2.01-10 Incremental Data - 08/06/2004 23:29:54
-2004 8 6 23 29 54
-36 21 8 5 7 8 87760 17 8 0
-3 3 13 2 6
-0 0 0 0 0 0
-11 4 5909 2 6 2
-7 5 35572 3 3 3
-2 1 1187 1 1 1
-0 0 0 0 0 0
-16 11 45092 3 7 2
+# Webalizer V2.01-10 Incremental Data - 10/19/2004 11:47:35
+2004 10 19 11 47 35
+444 135 18 27 4 12 701316 33 19 0
+1 272 272 4 19
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
+3 2 16664 1 2 1
+3 2 16664 1 2 1
+3 2 16664 1 2 1
+6 3 16794 2 4 2
+2 1 1187 2 1 1
+2 2 260 1 2 1
 0 0 0 0 0 0
+5 3 17851 2 3 2
 0 0 0 0 0 0
+6 4 33328 2 4 2
+3 2 16664 1 2 1
 0 0 0 0 0 0
+2 2 16664 1 1 1
 0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
+10 8 33727 5 7 5
+399 104 514849 1 3 1
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -33,52 +31,54 @@
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+128 38 106260 1
+3 2 16664 2
 0 0 0 0
 0 0 0 0
 0 0 0 0
 0 0 0 0
 0 0 0 0
 0 0 0 0
-2 1 1187 1
+3 1 130 2
+9 6 49992 6
+3 2 16664 2
+278 71 442047 7
 0 0 0 0
-3 2 17721 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+7 5 18111 5
+0 0 0 0
+0 0 0 0
 2 2 16664 1
-2 1 1187 1
 0 0 0 0
-0 0 0 0
-6 0 5389 2
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-5 4 520 4
-0 0 0 0
-0 0 0 0
-13 8 28298 5
-0 0 0 0
-3 3 16794 2
+1 1 130 1
+6 4 17981 4
+4 3 16673 2
 0
 0
 0
-21
-0
-0
-0
-0
-0
-5
-0
-0
-1
-0
-1
+135
 0
 0
 0
 0
 0
 0
-7
+0
+0
+12
+0
+294
+0
+0
+0
+0
+0
+0
+3
 0
 0
 0
@@ -90,7 +90,7 @@
 0
 0
 0
-1
+0
 0
 0
 0
@@ -100,90 +100,158 @@
 0
 # -urls- 
 /
-0 12 0 1560 6 1
+0 20 6448174 2600 18 2
+/images/downrightcorner.gif
+1 27 0 130 0 0
+/images/pieces/wknight.gif
+1 6 0 249 0 0
+/images/upleftcorner.gif
+1 28 0 192 0 0
+/images/pieces/wking.gif
+1 6 0 255 0 0
+/images/green_dot2.gif
+1 6 0 113 0 0
+/images/pieces/wpawn.gif
+1 6 0 199 0 0
 /display_game.php
-0 6 0 7128 0 0
+0 6 0 95723 0 0
 /images/templogo.jpg
-1 5 0 66136 0 0
-/robots.txt
-0 2 0 2516 0 0
-/favicon.ico
-0 2 0 2360 0 0
+1 13 0 181874 0 0
+/images/pieces/brook.gif
+1 6 0 225 0 0
+/images/uprightcorner.gif
+1 28 0 195 0 0
+/client_include/tchess.css
+0 28 0 318 0 0
+/images/pieces/bbishop.gif
+1 7 0 230 0 0
+/images/bg3.jpg
+1 28 0 17061 0 0
+/client_include/chess_board.css
+0 28 0 510 0 0
+/rough_mover.php
+0 49 0 345910 0 0
+/images/downleftcorner.gif
+1 27 0 134 0 0
+/images/pieces/wqueen.gif
+1 6 0 269 0 0
+/images/pieces/bqueen.gif
+1 6 0 269 0 0
+/images/pieces/wbishop.gif
+1 6 0 230 0 0
+/images/pieces/wrook.gif
+1 6 0 225 0 0
+/images/pieces/bknight.gif
+1 6 0 249 0 0
+/images/pieces/bking.gif
+1 6 0 255 0 0
+/images/logo.jpg
+1 29 0 43875 0 0
+/images/pieces/bpawn.gif
+1 6 0 199 0 0
+/new_system.php
+0 11 0 469 0 0
+/client_include/show_possible_moves.js
+0 28 0 6180 0 0
 # End Of Table - urls
 # -sites- (monthly)
-crawler11.googlebot.com
-0 2 1 1187 1 1091514035
+217.205.200.162
+0 3 2 16664 1 1097746629
 /
-xoba.com
-0 6 5 5389 1 1091452768
+83sdl30m14.codetel.net.do
+0 3 2 16664 1 1097668241
 /
-203.195.105.33
-0 8 7 17314 2 1091834994
+lj1200.inktomisearch.com
+0 1 1 130 1 1097274238
 /
-cpe.atm2-0-1101098.0x5359be16.hinxx1.customer.tele.dk
-0 3 2 17721 1 1091520370
+203.145.181.43
+0 6 4 33328 2 1097534607
 /
-203-154-224-79.inter.net.th
-0 2 2 16664 1 1091525291
+197sdl30m14.codetel.net.do
+0 3 1 130 1 1097136475
 /
-crawl29-public.alexa.com
-0 2 1 1187 1 1091614226
+dex-252-16.dxi.net
+0 1 1 130 1 1098134461
 /
-adsl-69-107-80-180.dsl.pltn13.pacbell.net
-0 1 1 1188 0 0
+165-234-180-187.k12.nd.us
+0 3 2 16664 1 1098090190
+/
+d182-92-tercero-k-1.ucdavis.edu
+0 403 107 531522 2 1098185026
 -
-dsl3-63-249-65-217.cruzio.com
-0 12 7 27110 1 1091828616
+63.148.99.234
+0 1 1 130 1 1098139707
+/
+64.18.47.6
+0 3 2 16664 1 1096976057
+/
+deltagames5.deltagames.gr
+0 3 2 16664 1 1097660999
+/
+d182-97-tercero-k-1.ucdavis.edu
+0 3 2 16664 1 1097168316
+/
+64.114.199.1
+0 2 2 260 1 1097338919
+/
+d-128-9-246.bootp.virginia.edu
+0 3 2 16664 1 1097058475
+/
+lj1117.inktomisearch.com
+0 1 0 1057 0 0
+-
+66.160.142.3
+0 1 1 130 1 1098057627
+/
+64-51-207-34.client.dsl.net
+0 2 2 16664 1 1097954467
+/
+egspd42419.teoma.com
+0 2 1 1187 1 1097513703
 /
 # End Of Table - sites (monthly)
 # -sites- (daily)
-203.195.105.33
-0 3 3 16794 1 1091834994
-/
-adsl-69-107-80-180.dsl.pltn13.pacbell.net
-0 1 1 1188 0 0
+d182-92-tercero-k-1.ucdavis.edu
+0 399 104 514849 1 1098185026
 -
-dsl3-63-249-65-217.cruzio.com
-0 12 7 27110 1 1091828616
-/
 # End Of Table - sites (daily)
 # -referrers- 
 - (Direct Request)
-0 26
-http://iconsurf.com/
-0 2
-http://www.google.com/search
-0 1
-http://myphpadmin.tchess.com/
-0 1
+0 69
 http://www.tchess.com/
-0 3
-http://www.tchess.com
-0 1
-http://iconsurf.com/robot.html
-0 2
+0 13
+http://www.tchess.com/display_game.php
+0 125
+http://www.tchess.com/rough_mover.php
+0 237
 # End Of Table - referrers
 # -agents- 
-Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Q312461)
+Mozilla/4.0 (compatible; MSIE 6.0; Windows XP)
 0 1
-Mozilla/4.0 (compatible; MSIE 6.0b; Windows 98) OmniWeb/v496
-0 6
-Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/125.
-0 6
-Googlebot/2.1 (+http://www.google.com/bot.html)
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)
 0 2
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Win 9x 4.90)
+0 3
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1
+0 9
 Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
 0 10
-ia_archiver
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Q312461; S
+0 403
+Mozilla/2.0 (compatible; Ask Jeeves/Teoma)
 0 2
-Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7) Gecko/2004061
-0 3
-IconSurf/2.0 favicon finder (see http://iconsurf.com/robot.ht
+Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)
 0 6
+Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/
+0 2
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; Q312461)
+0 3
+Mozilla/4.04 [en] (WinNT; I)
+0 1
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7) Gecko/2004080
+0 1
 # End Of Table - agents
 # -search strings- 
-tchess
-1
 # End Of Table - search strings
 # -usernames- 
 # End Of Table - usernames

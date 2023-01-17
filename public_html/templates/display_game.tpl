@@ -3,10 +3,10 @@
 function report(s) {
 //this area is dynamic, the functions file is static so browser caching will speed things up
 switch(s) {
-case '03': return('13'); break
+case '30': return('3132'); break
 //case 'b3': 'c3,d3'; break
 //case 'all': 'a3,a4,a5,b3,c3,d3'; break
-case 'all': return('13'); break
+case 'all': return('3132'); break
 }
 
 }
@@ -16,7 +16,7 @@ case 'all': return('13'); break
 <!-- START BLOCK : row -->
 <tr>
 <!-- START BLOCK : col -->
-<td{first_td} width="49" class="{square_class}"{onclick} style="position:relative">{square_html}{green_dot}</td>
+<td{first_td} width="49" class="{square_class}"{onclick} style="position:relative"><div style="position:relative">{square_html}{green_dot}</div></td>
 <!-- END BLOCK : col -->
 </tr>
 <!-- END BLOCK : row -->

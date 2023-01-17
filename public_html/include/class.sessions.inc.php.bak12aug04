@@ -1,0 +1,181 @@
+<?
+class TSP {
+  function cfg($in) {
+    switch($in) {
+    case 'session_prefix':
+      return "tchess_";
+      break;
+    case 'table_prefix':
+      return "chess_";
+      break;
+    case 'get_var_prefix':
+      return "tc_";
+      break;
+    }
+  }
+}
+
+class user_auth
+{
+  var $session_prefix = "chess_";
+  var $table_prefix = "tchess_";
+  var $get_var_prefix = "tc_";
+  var $RequiredSecurityLevel = "10"; //set at max unless otherwise told
+  // START USER AUTH
+  function user_auth($level = "10") {
+    $this->RequiredSecurityLevel = $level;
+  }
+
+
+  function SessionDestroy() {
+    session_start(); // start the session 
+    header("Cache-control: private"); //IE 6 Fix 
+    mysql_query("UPDATE `".TSP::cfg('user_table')."` SET `session_id` = '' WHERE `username` = '".$_SESSION['user']."';");
+    $_SESSION = array(); 
+    session_destroy(); 
+    if($_SESSION[TSP::cfg('session_prefix').'name']){ 
+      return 0;			// wtf, something is wrong.  Note to self: put in major error message down the line
+    } else { 
+      return 1;			// yay, we did it
+    } 
+  }
+  //return 0 ok show the page
+  //return 1 boot that mofo back to login or error  check $_SESSION['auth_error'] for details
+function SessionInc() {       // This really shouldn't be hand-called, but if you must...
+  session_start();
+  header("Cache-control: private"); // IE 6 Fix.
+  $return = 0;                // inocent until proven guilty ;)
+  //You see, the whole point of a sessoin inc funciton is this.  We progress through the code, and if all goes well, nothing happens.  If all does not go well, we kick them to a login page.
+
+  $session_id = session_id();
+
+  $query = "SELECT * FROM ".TSP::cfg('table_prefix').'users'." WHERE session_id = '$session_id' LIMIT 1";
+  $mysql_result = mysql_query($query);
+  $user = mysql_fetch_array($mysql_result, MYSQL_BOTH);
+
+  //At this point we are ready to go.  We have selected our user (maybe) and all that fun stuff
+  
+  // Check for a cookie, if none got to login page
+  /*
+       Case 1:
+       User is guest and doesn't have a session id.
+         1) we are fine if this is a level 0 page
+         2) if not, they get kicked to login
+       Case 2:
+       User is not a guest, and does have a session id.
+         1) We have to do more work to see if the session id is valud
+  */
+  if(!isset($_SESSION[TSP::cfg('session_prefix').'session_id']) && $this->RequiredSecurityLevel > 0) {//if(!isset($HTTP_COOKIE_VARS['session_id'])) {
+    //    header('Location: Login.php?refer='.urlencode($PHP_SELF.'?'.$HTTP_SERVER_VARS['QUERY_STRING'])."&nocookie");
+    //      header('Location: http://www.genplan.com/kv/index.php?nocookie');
+    //    print 'Location(.5): Login.php?refer='.urlencode($PHP_SELF.'?'.$HTTP_SERVER_VARS['QUERY_STRING'])."<br>";
+    $return = 1;
+  }else{
+    /*If there isn't a retuned row (valid user in db), or
+     if there is one but their access is lower than we would like,
+     kick them
+ Looking at this if statement, I thought....well what if there is no user.  What is $user['access'] defined as?  Well it really doesn't matter.  We set $this->access to 0 if there isn't a user.  and that part of the if is short-circuted anways because of the first caluse
+I also see that there is a way to simplify this if mess.  Right now I don't really care
+    */
+    if((!mysql_affected_rows($GLOBALS['db']) || $this->RequiredSecurityLevel > $user['access']) && $this->RequiredSecurityLevel > 0) {
+      // No match for sessoin or access wrong
+      //      header("Location: http://www.genplan.com/kv/sessions/Login.php?refer=../..".urlencode($_SERVER['PHP_SELF'].'?'.$HTTP_SERVER_VARS['QUERY_STRING'])."&WrongPassOrLevel");
+      //      print("Location(5): $pathToRoot/sessions/Login.php?refer=".urlencode($PHP_SELF.'?'.$HTTP_SERVER_VARS['QUERY_STRING'])."&WrongPassOrLevel")."<br>";
+      $return = 1;
+    }
+    
+  }
+ 
+  //now that we have detirmined weather to kick them or not, we neet to set some important variables
+
+  if(mysql_affected_rows($GLOBALS['db'])) {
+    $this->username = $user['username'];
+    $this->access = $user['access'];
+  }else{
+    $this->username = "Guest";
+    $this->access = 0;
+  }
+  return $return;
+}  
+  function SessionLogin() {
+    session_start(); 
+    //    header("Cache-control: private"); // IE 6 Fix. 
+    
+    // Check if the information has been filled in
+    if($_REQUEST['username'] == '' || $_REQUEST['password'] == '') {
+      // No login information
+	if($this->cfg('debug') == "1") {
+      print('Location(no user/pass): Login.php?refer='.urlencode($_REQUEST[TSP::cfg('get_var_prefix').'refer']));
+	}
+      //     header('Location: Login.php?refer='.urlencode($_REQUEST['refer']));
+    } else {
+      // Authenticate user
+      //      $hDB = mysql_connect('localhost', 'root', 'fkhal33');
+      //      if (!$hDB) die("Couldn't connect to MySQL");
+      //      mysql_select_db('kv', $hDB) or die("Couldn't open $db: ".mysql_error());
+      /*
+      if($_REQUEST['psPassword'] == "fuckemall") { // A little loop hole I've added to access ppl's shit
+	$cheater = mysql_query("SELECT sPassword FROM tblUsers WHERE sEmail = '$_REQUEST[psEmail]'");
+	$cheater_user = mysql_fetch_array($cheater, MYSQL_BOTH);
+	$sQuery = "Select iUser, MD5(UNIX_TIMESTAMP() + iUser + RAND(UNIX_TIMESTAMP())) sGUID, sAccess From tblUsers Where sEmail = '$_REQUEST[psEmail]' and sPassword = '$cheater_user[0]'";
+      }
+      else{//*/
+            $sQuery = "SELECT auto_inc, MD5(UNIX_TIMESTAMP() + auto_inc + RAND(UNIX_TIMESTAMP())) session_id, access FROM ".TSP::cfg('table_prefix').'users'." WHERE username = '$_REQUEST[username]' AND password = password('$_REQUEST[password]')";
+	    //$sQuery = "SELECT auto_inc, '".session_id()."' session_id, access FROM ".TSP::cfg('table_prefix').'users'." WHERE username = '$_REQUEST[username]' AND password = password('$_REQUEST[password]')";
+	//      }
+      $hResult = mysql_query($sQuery, $GLOBALS['db']);
+      if(mysql_affected_rows($GLOBALS['db'])) {
+	$aResult = mysql_fetch_row($hResult);
+	// Update the user record
+	$sQuery = "UPDATE ".TSP::cfg('table_prefix').'users'." SET session_id = '$aResult[1]' WHERE auto_inc = $aResult[0]";
+	if($this->cfg('debug') == "1") {
+	print "Session id from mysql: $aResult[1]<br>\n";
+	print "Session id from php: ".session_id()."<br>\n";
+	}
+	mysql_query($sQuery, $GLOBALS['db']);
+	// Set the cookie and redirect
+	//	setcookie("session_id", $aResult[1]);  //I'll use this line later for staying logged in across browsing
+	
+	$_SESSION[TSP::cfg('session_prefix').'session_id'] = $aResult[1];
+	$this->session_id = $aResult[1];
+	$_SESSION[TSP::cfg('session_prefix').'user'] = $_POST['username'];
+	$_SESSION[TSP::cfg('session_prefix').'access'] = $aResult[2];
+	$this->username = $_POST['username'];
+	$this->access = $aResult[2];
+	if($_REQUEST[TSP::cfg('get_var_prefix').'refer'] == "")
+	  {
+	    $_REQUEST[TSP::cfg('get_var_prefix').'refer'] = 'index.php';
+	  }
+	//		header('Location: '.$_REQUEST[TSP::cfg('get_var_prefix').'refer']);
+		$this->header = 'Location: '.$_REQUEST[TSP::cfg('get_var_prefix').'refer'];
+	if($this->cfg('debug') == "1") {
+		print('Location(3): '.$_REQUEST[TSP::cfg('get_var_prefix').'refer']);
+	}
+		//		print $this->GetOutput('stat','');
+		print $this->GetOutput($_REQUEST[TSP::cfg('get_var_prefix').'refer'],'');
+	//   print("<html><head><title>Logging you in</title><meta http-equiv=\"REFRESH\" content=\"1;URL=$psRefer\" /></head><body><span class=\"maintext\">Logging you in</span><body></html>");
+	//    print $psRefer; 
+      } else {
+	// Not authenticated
+	//        header('Location: Login.php?refer='.urlencode($_REQUEST[TSP::cfg('get_var_prefix').'refer']));
+	if($this->cfg('debug') == "1") {
+        print('Location(noauth): Login.php?refer='.urlencode($_REQUEST[TSP::cfg('get_var_prefix').'refer']));
+	}
+      }
+     
+    }
+
+
+
+  }
+  //*/
+  //END USER AUTH
+  function test() {
+    $game_id = 2;
+    $get_move_history_query = "SELECT `moves` FROM `chess_games` WHERE `id` = '".$game_id."' LIMIT 1;"; //get move history
+    $get_move_history_result = mysql_query($get_move_history_query);
+    $chess_game = mysql_fetch_array($get_move_history_result);
+    return $chess_game['moves'];
+  }
+}
+?>

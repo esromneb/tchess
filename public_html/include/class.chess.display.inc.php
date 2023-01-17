@@ -7,7 +7,7 @@ class chess_display {
     $remaining = $pieces['pieces'];
     for($i=0;$i<8;$i++) {
       for($j=0;$j<8;$j++) {
-	$return[$i][$j] = substr($remaining, 0, 2)."<br>";
+	$return[$j][$i] = substr($remaining, 0, 2);//."<br>";
 	$remaining = substr($remaining, 2);
       }
     }
@@ -87,7 +87,7 @@ class chess_display {
       break;
     case 32:
       return(NULL);
-      //      return(".");//just for display 
+      //return("blank");//just for display 
       break;
     }
   }

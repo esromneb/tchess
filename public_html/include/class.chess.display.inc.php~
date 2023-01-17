@@ -7,7 +7,7 @@ class chess_display {
     $remaining = $pieces['pieces'];
     for($i=0;$i<8;$i++) {
       for($j=0;$j<8;$j++) {
-	$return[$i][$j] = substr($remaining, 0, 2)."<br>";
+	$return[$j][$i] = substr($remaining, 0, 2);//."<br>";
 	$remaining = substr($remaining, 2);
       }
     }
@@ -24,10 +24,9 @@ class chess_display {
     }
 
         return $return;
-
+	
   }
-  
-  
+    
   function num_to_piecename($number) {
     switch($number){
     case 0:
@@ -88,9 +87,24 @@ class chess_display {
       break;
     case 32:
       return(NULL);
-      //      return(".");//just for display 
+      //return("blank");//just for display 
       break;
     }
+  }
+
+  function display_shell($page_content, $page_title) {
+    $tplshell = new TemplatePower("templates/shell.tpl");
+    $tplshell -> prepare();
+    $tpltop_menu = new TemplatePower("templates/top_menu.tpl");
+    $tpltop_menu -> prepare();
+    
+    $tplshell->assign(array(
+			    "page_title" => $page_title,
+			    "page_content" => $page_content,
+			    "top_menu" => $tpltop_menu->getOutputContent(),
+			    ));
+
+    $tplshell->printToScreen();   
   }
 }
 ?>
