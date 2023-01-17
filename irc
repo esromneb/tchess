@@ -1,0 +1,7 @@
+mkdir `./time.pl`
+mkdir "$(./time.pl)"
+<esromneb> why the $?
+<esromneb> weird
+<esromneb> cool tho
+<hays> bash is weird
+<twkm> $() is similar to ``
